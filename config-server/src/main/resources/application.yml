@@ -3,7 +3,7 @@ server:
 
 spring:
  application:
-  name: config-server
+  name: eureka-server
  cloud:
   config:
    server:
@@ -11,4 +11,4 @@ spring:
      uri: https://github.com/wangke839/springcloud-demo.git
      search-paths:
       - configfiles
-   label: test
+   label: dev
