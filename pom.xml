@@ -26,6 +26,7 @@
         <module>zuul-gateway-service</module>
         <module>gateway-server</module>
         <module>config-server</module>
+        <module>config-client</module>
     </modules>
     <!--版本号 -->
     <properties>
